@@ -8,6 +8,7 @@ class AboutMeController extends Controller
 {
     public function index()
     {
-        return "Hello World";
+        $data = "I am Jason A web dev";
+        return view('about-me',compact('data'));
     }
 }
