@@ -7,6 +7,13 @@
     <title>About Me</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="{{ url('/about-me') }}">About Me</a></li>
+            <li><a href="{{ url('/skills') }}">Skills</a></li>
+            <li><a href="{{ url('/hobbies') }}">Hobbies</a></li>
+        </ul>
+    </nav>
     <h1>About Me</h1>
     <p>{{$data}}</p>
 </body>
