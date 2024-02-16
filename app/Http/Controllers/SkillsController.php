@@ -8,6 +8,7 @@ class SkillsController extends Controller
 {
     public function index()
     {
-        return "Hello World";
+        $data = "Knowledgeable on typing, Knows how to multi-task";
+        return view('skills',compact('data'));
     }
 }

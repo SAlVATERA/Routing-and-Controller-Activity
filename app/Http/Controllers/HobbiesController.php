@@ -8,6 +8,7 @@ class HobbiesController extends Controller
 {
     public function index()
     {
-        return "Hello World";
+        $data = "I like gaming and loves to discover many things about programming";
+        return view('hobbies',compact('data'));
     }
 }

@@ -7,5 +7,7 @@
     <title>Skills</title>
 </head>
 <body>
+    <h1>Skills</h1>
+    <p>{{$data}}</p>
 </body>
 </html>

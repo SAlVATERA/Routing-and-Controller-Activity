@@ -7,5 +7,7 @@
     <title>Hobbies</title>
 </head>
 <body>
+    <h1>Hobbies</h1>
+    <p>{{$data}}</p>
 </body>
 </html>
