@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\AboutMeController;
-use app\Http\Controllers\SkillsController;
-use app\Http\Controllers\HobbiesController;
+use App\Http\Controllers\AboutMeController;
+use App\Http\Controllers\SkillsController;
+use App\Http\Controllers\HobbiesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,5 +20,5 @@ Route::get('/', function () {
 });
 
 Route:: get('/about-me',[AboutMeController::class, 'index']);
-Route:: get('/about-me',[SkillsController::class, 'index']);
-Route:: get('/about-me',[HobbiesController::class, 'index']);
+Route:: get('/skills',[SkillsController::class, 'index']);
+Route:: get('/hobbies',[HobbiesController::class, 'index']);
