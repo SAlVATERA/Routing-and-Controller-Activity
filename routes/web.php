@@ -20,5 +20,5 @@ Route::get('/', function () {
 });
 
 Route:: get('/about-me',[AboutMeController::class, 'index']);
-Route:: get('/about-me',[SkillsControllerController::class, 'index']);
-Route:: get('/about-me',[HobbiesControllerController::class, 'index']);
+Route:: get('/about-me',[SkillsController::class, 'index']);
+Route:: get('/about-me',[HobbiesController::class, 'index']);
